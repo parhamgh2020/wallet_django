@@ -1,4 +1,4 @@
-# Hotel Reservation django
+# wallet
 
 ### how to run 
 
