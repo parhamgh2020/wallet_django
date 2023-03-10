@@ -1,0 +1,26 @@
+TomanBackend Interview Task
+We want you to implement a simplified wallet service with a strange twist. People should be able
+to deposit into their wallet, and schedule a withdrawal from their wallet. All withdrawal requests
+must include a timestamp in the future at which the withdrawal will take effect. For each
+withdrawal transaction, you need to send a request to a third party service (e.g. a bank) to
+deposit that amount to the wallet owner's account.
+In the attachments you will find the code for the third party service as well as a basic scaffolding
+for your service written in Django. You need to complete the todos in a way that the service
+would work normally. Feel free to change the rest of the code as you wish or if you feel extra
+awesome you can even switch to a framework of your choice.
+
+Some notes to consider while implementing:
+- You are allowed to add as many models and dependencies as you find necessary.
+- You don’t need to worry about authentication and authorization of users.
+- Wallets must have a non-negative balance all the time.
+- If there are not sufficient funds at the time specified by the user, the transaction should
+be marked as failed and not take effect.
+- There might be concurrent transactions on the same wallet.
+- The third party service may sometimes be unable to process your request and returns a
+non-successful result. You should mark those transactions as failed as well, and return
+the amount to the wallet if necessary.
+- You are allowed to make reasonable assumptions when needed.
+Good luck, have fun!
+
+test
+docs

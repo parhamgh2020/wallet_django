@@ -1,0 +1,159 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "parham",
+      "first_name": "parham",
+      "last_name": "gh",
+      "email": "parham@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-03-10T19:58:00.978Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "elon",
+      "first_name": "elon",
+      "last_name": "musk",
+      "email": "elon@tesla.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-03-10T19:58:24.065Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sara",
+      "first_name": "sara",
+      "last_name": "ss",
+      "email": "sara@teslayahoo.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-03-10T19:58:41.090Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "arash",
+      "first_name": "arah",
+      "last_name": "aa",
+      "email": "arash@teslayahoo.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-03-10T19:58:55.093Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "2",
+    "fields": {
+      "next_run_time": "2023-03-10T20:07:14.272Z",
+      "job_state": "gAWVtgMAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwBMpSMBGZ1bmOUjCt3YWxsZXRzLm1vZGVsczpUcmFuc2FjdGlvbi5leGVjdXRlX3dpdGhkcmF3lIwHdHJpZ2dlcpSMGWFwc2NoZWR1bGVyLnRyaWdnZXJzLmRhdGWUjAtEYXRlVHJpZ2dlcpSTlCmBlH2UKGgBSwGMCHJ1bl9kYXRllIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+cDChQHDgQnpZSMBHB5dHqUjARfVVRDlJOUKVKUhpRSlHVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlIwVZGphbmdvLmRiLm1vZGVscy5iYXNllIwObW9kZWxfdW5waWNrbGWUk5SMB3dhbGxldHOUjAtUcmFuc2FjdGlvbpSGlIWUUpR9lCiMBl9zdGF0ZZRoGowKTW9kZWxTdGF0ZZSTlCmBlH2UKIwCZGKUaBiMDGZpZWxkc19jYWNoZZR9lIwGd2FsbGV0lGgcaB2MBldhbGxldJSGlIWUUpR9lChoI2glKYGUfZQoaCl9lIwGYWRkaW5nlIloKGgYdWKMBHV1aWSUaDWMBFVVSUSUk5QpgZR9lIwDaW50lIoQNo40Lclchq70S/NHuQGqfHNijAdiYWxhbmNllIwHZGVjaW1hbJSMB0RlY2ltYWyUk5SMBzExMDAuMDCUhZRSlIwIb3duZXJfaWSUSwGMCmNyZWF0ZWRfYXSUaA9DCgfnAwoTOxQISYiUaBSGlFKUjAp1cGRhdGVkX2F0lGgPQwoH5wMKEzssAqkflGgUhpRSlIwPX2RqYW5nb192ZXJzaW9ulIwDMy4ylHVic2g0iXViaAJLAowJd2FsbGV0X2lklGg4jAZhbW91bnSUaD6MBjEwMC4wMJSFlFKUjA5zY2hlZHVsZWRfdGltZZRHQdkC43yRbUCMDWV4ZWN1dGVkX3RpbWWUTowGbWV0aG9klIwBMZSMBnN0YXR1c5SMDndhbGxldHMubW9kZWxzlIwSVHJhbnNhY3Rpb24uU3RhdHVzlJOUjAEwlIWUUpSMEnN0YXR1c19kZXNjcmlwdGlvbpROaEtoTHVihZSMBmt3YXJnc5R9lIwEbmFtZZSMHFRyYW5zYWN0aW9uLmV4ZWN1dGVfd2l0aGRyYXeUjBJtaXNmaXJlX2dyYWNlX3RpbWWUSwGMCGNvYWxlc2NllIiMDW1heF9pbnN0YW5jZXOUSwGMDW5leHRfcnVuX3RpbWWUaBZ1Lg=="
+    }
+  },
+  {
+    "model": "django_apscheduler.djangojob",
+    "pk": "3",
+    "fields": {
+      "next_run_time": "2023-03-10T20:07:18.983Z",
+      "job_state": "gAWVtgMAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwBM5SMBGZ1bmOUjCt3YWxsZXRzLm1vZGVsczpUcmFuc2FjdGlvbi5leGVjdXRlX3dpdGhkcmF3lIwHdHJpZ2dlcpSMGWFwc2NoZWR1bGVyLnRyaWdnZXJzLmRhdGWUjAtEYXRlVHJpZ2dlcpSTlCmBlH2UKGgBSwGMCHJ1bl9kYXRllIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+cDChQHEg8DNZSMBHB5dHqUjARfVVRDlJOUKVKUhpRSlHVijAhleGVjdXRvcpSMB2RlZmF1bHSUjARhcmdzlIwVZGphbmdvLmRiLm1vZGVscy5iYXNllIwObW9kZWxfdW5waWNrbGWUk5SMB3dhbGxldHOUjAtUcmFuc2FjdGlvbpSGlIWUUpR9lCiMBl9zdGF0ZZRoGowKTW9kZWxTdGF0ZZSTlCmBlH2UKIwCZGKUaBiMDGZpZWxkc19jYWNoZZR9lIwGd2FsbGV0lGgcaB2MBldhbGxldJSGlIWUUpR9lChoI2glKYGUfZQoaCl9lIwGYWRkaW5nlIloKGgYdWKMBHV1aWSUaDWMBFVVSUSUk5QpgZR9lIwDaW50lIoQNo40Lclchq70S/NHuQGqfHNijAdiYWxhbmNllIwHZGVjaW1hbJSMB0RlY2ltYWyUk5SMBzExMDAuMDCUhZRSlIwIb3duZXJfaWSUSwGMCmNyZWF0ZWRfYXSUaA9DCgfnAwoTOxQISYiUaBSGlFKUjAp1cGRhdGVkX2F0lGgPQwoH5wMKEzssAqkflGgUhpRSlIwPX2RqYW5nb192ZXJzaW9ulIwDMy4ylHVic2g0iXViaAJLA4wJd2FsbGV0X2lklGg4jAZhbW91bnSUaD6MBjEwMC4wMJSFlFKUjA5zY2hlZHVsZWRfdGltZZRHQdkC432+95SMDWV4ZWN1dGVkX3RpbWWUTowGbWV0aG9klIwBMZSMBnN0YXR1c5SMDndhbGxldHMubW9kZWxzlIwSVHJhbnNhY3Rpb24uU3RhdHVzlJOUjAEwlIWUUpSMEnN0YXR1c19kZXNjcmlwdGlvbpROaEtoTHVihZSMBmt3YXJnc5R9lIwEbmFtZZSMHFRyYW5zYWN0aW9uLmV4ZWN1dGVfd2l0aGRyYXeUjBJtaXNmaXJlX2dyYWNlX3RpbWWUSwGMCGNvYWxlc2NllIiMDW1heF9pbnN0YW5jZXOUSwGMDW5leHRfcnVuX3RpbWWUaBZ1Lg=="
+    }
+  },
+  {
+    "model": "wallets.wallet",
+    "pk": "3c520ea8-0cd6-4d02-ae56-6c400a9aca64",
+    "fields": {
+      "balance": "1000.00",
+      "owner": 2,
+      "created_at": "2023-03-10T19:59:27.399Z",
+      "updated_at": "2023-03-10T19:59:27.399Z"
+    }
+  },
+  {
+    "model": "wallets.wallet",
+    "pk": "7caa01b9-47f3-4bf4-ae86-5cc92d348e36",
+    "fields": {
+      "balance": "1100.00",
+      "owner": 1,
+      "created_at": "2023-03-10T19:59:20.543Z",
+      "updated_at": "2023-03-10T19:59:44.174Z"
+    }
+  },
+  {
+    "model": "wallets.wallet",
+    "pk": "89facc66-a038-49ab-b524-6f0d85427d54",
+    "fields": {
+      "balance": "500.00",
+      "owner": 3,
+      "created_at": "2023-03-10T19:59:32.978Z",
+      "updated_at": "2023-03-10T19:59:32.978Z"
+    }
+  },
+  {
+    "model": "wallets.transaction",
+    "pk": 1,
+    "fields": {
+      "wallet": "7caa01b9-47f3-4bf4-ae86-5cc92d348e36",
+      "amount": "100.00",
+      "scheduled_time": null,
+      "executed_time": 1678478384,
+      "method": "0",
+      "status": "1",
+      "status_description": "deposited successfully"
+    }
+  },
+  {
+    "model": "wallets.transaction",
+    "pk": 2,
+    "fields": {
+      "wallet": "7caa01b9-47f3-4bf4-ae86-5cc92d348e36",
+      "amount": "100.00",
+      "scheduled_time": 1678478834,
+      "executed_time": null,
+      "method": "1",
+      "status": "0",
+      "status_description": null
+    }
+  },
+  {
+    "model": "wallets.transaction",
+    "pk": 3,
+    "fields": {
+      "wallet": "7caa01b9-47f3-4bf4-ae86-5cc92d348e36",
+      "amount": "100.00",
+      "scheduled_time": 1678478838,
+      "executed_time": null,
+      "method": "1",
+      "status": "0",
+      "status_description": null
+    }
+  }
+]
