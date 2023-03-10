@@ -23,7 +23,7 @@ for test:
 go to project directory 
 run: python3 ./manage.py test
 
-note : there is no need to run third party app, the is similated in utils.py module
+note : there is no need to run third party app, the app is similated in utils.py module
 ```
 ### project end points
 ```commandline
