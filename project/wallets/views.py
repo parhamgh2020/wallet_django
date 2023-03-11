@@ -11,7 +11,7 @@ class WalletViewSet(mixins.CreateModelMixin,
                     mixins.ListModelMixin,
                     GenericViewSet):
     """
-    A viewset that provides CRUD operations for Wallet objects.
+    A viewset that provides operations for Wallet objects.
 
     Inherits from CreateModelMixin, RetrieveModelMixin, UpdateModelMixin,
     ListModelMixin, and GenericViewSet. The viewset supports the following

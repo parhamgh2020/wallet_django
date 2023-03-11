@@ -29,9 +29,11 @@ class WalletSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Wallet
         fields = [
+            'uuid',
             'balance',
             'owner',
         ]
+        read_only_fields = ('uuid',)
 
 
 class ChoicesField(serializers.ChoiceField):
