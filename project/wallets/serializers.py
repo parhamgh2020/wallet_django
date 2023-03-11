@@ -96,7 +96,7 @@ class TransactionSerializer(serializers.ModelSerializer):
         If the `method` field is "1" (withdrawal), a job is scheduled to call the
         `execute_withdraw` method of the transaction instance in the future.
         """
-        super().save()
+        instance = super().save()
         method = self.validated_data.get('method')
         if method == "0":
             self.instance.execute_deposit()
@@ -106,3 +106,4 @@ class TransactionSerializer(serializers.ModelSerializer):
             schedule = self.instance.scheduled_time
             schedule = datetime.fromtimestamp(schedule)
             define_schedule_job(job, schedule, (_id))
+        return instance
