@@ -37,7 +37,7 @@ class TransactionViewSet(mixins.CreateModelMixin,
                          mixins.ListModelMixin,
                          GenericViewSet):
     """
-    A viewset that provides CRUD operations for Transaction objects.
+    A viewset that provide operations for Transaction objects.
 
     Inherits from CreateModelMixin, RetrieveModelMixin, ListModelMixin, and
     GenericViewSet. The viewset supports the following actions:
