@@ -9,11 +9,11 @@ install dependency by: pip install -r requirement
 
 to make sqlite
 go to project directory 
-run: python3 ./management makemigrations
-run: python3 ./management migrate
+run: python3 ./manage.py makemigrations
+run: python3 ./manage.py migrate
 
 to load data
-run: python3 ./management loaddata data/db.json
+run: python3 ./manage.py loaddata data/db.json
 
 to run project:
 go to project directory 
